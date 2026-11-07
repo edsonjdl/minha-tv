@@ -39,3 +39,9 @@ Entregar uma versão **instalável e testável** do aplicativo webOS deste repos
 - Resumo final dos commits, arquivos alterados, funcionalidades verificadas, limitações e passos exatos para testar na LG B7.
 
 Este arquivo é um briefing para execução do Codex; **não inicia uma tarefa sozinho**.
+
+## Identidade visual aprovada — Edplex (06/11/2026)
+- **Decisão do usuário:** renomear a entrada e a seção **Arquivos Locais** para **Edplex** (grafia da marca no cartão: **EDPLEX**). Preservar a funcionalidade de biblioteca local.
+- **Logo aprovado:** cartão retangular horizontal com cantos arredondados; fundo **azul-marinho escuro uniforme, sem degradê**; símbolo superior de película cinematográfica azul-ciano com triângulo vermelho de reprodução; lettering grande **ED** branco + **PLEX** vermelho; traço vermelho curvo abaixo do nome. Não substituir por ícone genérico de pasta.
+- **Arquivo de referência:** a arte foi aprovada nesta conversa do ChatGPT, mas **o PNG ainda não foi enviado ao repositório**. Ao receber o PNG, armazená-lo no projeto, preferencialmente em `assets/edplex-logo.png` (ou diretório de recursos existente) e utilizá-lo no cartão do launcher. Não afirmar que o arquivo já existe no GitHub; pedir a imagem caso ela não esteja disponível no ambiente do Codex. Não recriar uma imagem diferente sem necessidade.
+- Ajustar tamanho/proporção, foco pelo controle remoto e legibilidade para ficar coerente com os cartões de Netflix/Disney+/Prime Video. Manter a compatibilidade B7 e C4. Preservar o original e trabalhar somente em `smartshare-test`.
